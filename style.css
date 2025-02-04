@@ -26,8 +26,8 @@
   padding-top: 100px;
   position: relative;
   z-index: 10;
-  height: 85vh;
   width: 75%;
+  height: 80%;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(25px);
   border: 3px solid #186eb9bb;
@@ -211,7 +211,8 @@
   .hero {
     flex-direction: column;
     display: flex;
-    gap: 142px;
+    gap: 58px;
+    height: 100vh;
   }
 
   .hero nav {
@@ -240,10 +241,13 @@
     width: 100%;
   }
 
+  .contanier .hero {
+    padding: 0px 20px 0px 20px;
+  }
+
   .hero {
     width: 95%;
     padding: 0 20px;
-    height: 100vh;
   }
 
   .hero .content {
