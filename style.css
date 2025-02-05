@@ -72,7 +72,7 @@
 .hero .content .div-text h1 {
   margin-bottom: 20px; /* #04068a */
   font-size: 50px;
-  color: #fff;
+  color: #04068a;
 }
 .hero .content .div-text h4 {
   color: #1f4082;
@@ -80,7 +80,7 @@
   margin-bottom: 10px;
 }
 .hero .content .div-text p {
-  color: #ffffff; /* #1a1b39 */
+  color: #1a1b39; /* #1a1b39 */
   margin-bottom: 50px;
   font-size: 20px;
 }
