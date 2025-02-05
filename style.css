@@ -27,7 +27,7 @@
   width: 50%;
   top: 0;
   left: 0;
-  background-color: #9dddff;
+  background-color: #034078;
 }
 .contanier .hero {
   padding-top: 100px;
@@ -37,7 +37,7 @@
   height: 80%;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(25px);
-  border: 3px solid #186eb9bb;
+  border: 3px solid #1282A2;
   border-radius: 20px;
   box-shadow: -15px 17px 17px rgba(24, 110, 185, 0.54);
   padding: 0 40px 0 80px;
@@ -51,7 +51,7 @@
   width: 100%;
 }
 .hero nav .logo {
-  color: #1f5582;
+  color: #FEFCFB;
   font-size: 45px;
   font-weight: bold;
 }
@@ -79,28 +79,28 @@
 .hero .content .div-text h1 {
   margin-bottom: 20px; /* #04068a */
   font-size: 50px;
-  color: #04068a;
+  color: #FEFCFB;
 }
 .hero .content .div-text h4 {
-  color: #1f4082;
+  color: #FEFCFB;
   font-size: 24px;
   margin-bottom: 10px;
 }
 .hero .content .div-text p {
-  color: #1a1b39; /* #1a1b39 */
+  color: #FEFCFB; /* #1a1b39 */
   margin-bottom: 50px;
   font-size: 20px;
 }
 .hero .content .div-text .btn {
   padding: 15px 20px;
-  background-color: #186fb9;
-  border: 2px solid #1f3d82;
-  color: #fff;
+  background-color: #FEFCFB;
+  border: 2px solid #1282A2;
+  color: #1282A2;
   border-radius: 5px;
   font-weight: bold;
 }
 .hero .content .div-text .btn:hover {
-  color: #1f5282;
+  color: #FEFCFB;
   transition: 0.9s;
   background-color: transparent;
   scale: 1.2;
@@ -117,21 +117,25 @@
 .soc-link a i {
   font-size: 25px;
   cursor: pointer;
-  color: #1f5182e5;
+  color: #034078;
   margin-bottom: 20px;
   transition: 0.4s;
 }
 .soc-link a i:hover {
-  color: #186fb9;
+  color: #1282A2;
   scale: 1.1;
 }
 
 .hero .content .div-img {
   width: 40%;
 }
-.hero .content .div-img img {
-  width: 100%;
-  border-radius: 150%;
+.hero .content .div-img img{
+    width: 100%;
+    border-radius: 150%;
+    transition: 0.9s;
+}
+img:hover{
+    scale: 1.1;
 }
 /* animation */
 
